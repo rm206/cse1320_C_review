@@ -3,7 +3,6 @@
 
 int main()
 {
-    char a;
-    printf("a : %d\n", a);
+    fprintf(stderr, "Test Error");
     return EXIT_SUCCESS;
 }
