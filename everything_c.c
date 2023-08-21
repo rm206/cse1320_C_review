@@ -3,7 +3,7 @@
 
 int main()
 {
-    char a;
+    char a = 'a';
     printf("a : %d\n", a);
     return EXIT_SUCCESS;
 }
