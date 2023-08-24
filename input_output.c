@@ -32,7 +32,6 @@ int main()
     // When the following call to `scanf` is made, it will immediately read whatever is in the buffer.
     // Since the newline from the enter key is left in there, it will effectively skip our input.
     // This loop will flush the buffer so that the character can be read.
-    // Comment this `while` loop out and recompile to see it in action.
     while (getchar() != '\n')
         ;
     scanf("%c", &c_val);
