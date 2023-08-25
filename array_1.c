@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/*
 void process_array(int a[])
 {
     // Once passed to a function,
@@ -7,6 +8,7 @@ void process_array(int a[])
     printf("In process_array...\n");
     printf("  sizeof(a) = %ld\n", sizeof(a));
 }
+*/
 
 int main()
 {
@@ -21,6 +23,8 @@ int main()
 
     // what will be the size of arr if we don't initialize it or initializ it with less values than the number of
     // spaces reserved?
+
+    // can we use what we have seen to find the average of the values in the array?
 
     // what happens when we pass the array to a function? HINT - this is one of the MAJOR focuses of this course
     // here we also see what functions do - perform some task multiple times
